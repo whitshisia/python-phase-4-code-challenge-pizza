@@ -1,0 +1,76 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "PIZZA",
+    "collectionId": "4324a218-fa25-4ddd-9609-109906b584e2",
+    "dateExported": "2024-07-07T10:01:09.783Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "923fd3d4-2533-4e94-950a-d0125d7c9885",
+            "colId": "4324a218-fa25-4ddd-9609-109906b584e2",
+            "containerId": "",
+            "name": "GET",
+            "url": "http://127.0.0.1:5555/restaurants",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-07-05T09:16:03.813Z",
+            "modified": "2024-07-05T09:17:22.683Z",
+            "headers": []
+        },
+        {
+            "_id": "20711ed1-176c-4453-a678-02f7f264f20f",
+            "colId": "4324a218-fa25-4ddd-9609-109906b584e2",
+            "containerId": "",
+            "name": "GET_res_by_id",
+            "url": "http://127.0.0.1:5555/restaurants/2",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-07-05T09:17:50.122Z",
+            "modified": "2024-07-07T09:35:26.084Z",
+            "headers": []
+        },
+        {
+            "_id": "9edf6e7a-b318-448b-b5ac-9dade9ae89ad",
+            "colId": "4324a218-fa25-4ddd-9609-109906b584e2",
+            "containerId": "",
+            "name": "GET_pizzas",
+            "url": "http://127.0.0.1:5555/pizzas",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-07-05T09:19:38.028Z",
+            "modified": "2024-07-05T09:19:51.293Z",
+            "headers": []
+        },
+        {
+            "_id": "c1b2fafe-cb55-4f4a-bac8-c94467d57ab5",
+            "colId": "4324a218-fa25-4ddd-9609-109906b584e2",
+            "containerId": "",
+            "name": "POST",
+            "url": "http://127.0.0.1:5555/restaurant_pizzas",
+            "method": "POST",
+            "sortNum": 40000,
+            "created": "2024-07-05T09:22:08.239Z",
+            "modified": "2024-07-07T09:17:06.843Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\"pizza\": {\n            \"id\": 3,\n            \"ingredients\":\"Dough,Tomato sauce,Cheese\" ,\n            \"name\": \"Geri\"\n        },\n        \"pizza_id\":2,\n        \"price\": 20,\n        \"restaurant\": {\n            \"address\":\"address3\",\n            \"id\": \"3\",\n            \"name\": \"Kiki's Pizza\"\n        },\n        \"restaurant_id\": 3\n    }",
+                "form": []
+            }
+        },
+        {
+            "_id": "ef59e1e0-b37e-44a4-bdd4-34b2a4508c70",
+            "colId": "4324a218-fa25-4ddd-9609-109906b584e2",
+            "containerId": "",
+            "name": "DELETE",
+            "url": "http://127.0.0.1:5555/restaurants/3",
+            "method": "DELETE",
+            "sortNum": 50000,
+            "created": "2024-07-05T09:45:45.940Z",
+            "modified": "2024-07-07T09:18:49.374Z",
+            "headers": []
+        }
+    ],
+    "ref": "_Q0o3svAJft8PI4GFl6ZXsLRfN8CkwoxvSysh3kPBjTgOUWfEHGPzOclyHucWHCp0BX3Z33EKYF-lbU-qIk0pg"
+}
